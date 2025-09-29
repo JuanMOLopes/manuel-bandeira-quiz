@@ -58,42 +58,37 @@ const QuizContainer = () => {
       </header>
 
       <main className="quiz-main">
-        <Question question={currentQuestion} />
-
-        <div className="alternatives-container">
-          {Object.entries(currentQuestion.alternativas).map(([key, text]) => (
-            <Alternative
-              key={key}
-              letter={key.toUpperCase()}
-              text={text}
-              isSelected={selectedAnswer === key}
-              isCorrect={key === currentQuestion.resposta_correta}
-              isAnswered={isAnswered}
-              onClick={() => handleAlternativeClick(key)}
-            />
-          ))}
+        <div className="question-section">
+          <Question question={currentQuestion} />
         </div>
 
-        {isAnswered && (
-          <div className="next-button-container">
-            <Button
-              onClick={handleNextQuestion}
-              className="next-button"
-              size="medium"
-            >
-              {isLastQuestion ? 'Ver Resultado' : 'Próxima Questão'}
-            </Button>
+        <div className="alternatives-section">
+          <div className="alternatives-container">
+            {Object.entries(currentQuestion.alternativas).map(([key, text]) => (
+              <Alternative
+                key={key}
+                letter={key.toUpperCase()}
+                text={text}
+                isSelected={selectedAnswer === key}
+                isCorrect={key === currentQuestion.resposta_correta}
+                isAnswered={isAnswered}
+                onClick={() => handleAlternativeClick(key)}
+              />
+            ))}
           </div>
-        )}
+
+        </div>
       </main>
 
       {showFeedback && (
         <FeedbackModal
           isCorrect={selectedAnswer === currentQuestion.resposta_correta}
           correctAnswer={currentQuestion.resposta_correta}
+          correctAnswerText={currentQuestion.alternativas[currentQuestion.resposta_correta]}
+          selectedAnswer={selectedAnswer}
+          selectedAnswerText={selectedAnswer ? currentQuestion.alternativas[selectedAnswer] : ''}
           explanation={currentQuestion.explicacao}
           onClose={handleModalClose}
-          isLastQuestion={isLastQuestion}
         />
       )}
     </div>

@@ -3,7 +3,7 @@ import React from 'react';
 import Button from '../UI/Button';
 import '../../styles/components/FeedbackModal.css';
 
-const FeedbackModal = ({ isCorrect, correctAnswer, explanation, onClose, isLastQuestion }) => {
+const FeedbackModal = ({ isCorrect, correctAnswer, correctAnswerText, selectedAnswer, selectedAnswerText, explanation, onClose }) => {
   return (
     <div className="feedback-modal-overlay">
       <div className="feedback-modal">
@@ -17,11 +17,25 @@ const FeedbackModal = ({ isCorrect, correctAnswer, explanation, onClose, isLastQ
         </div>
 
         <div className="feedback-content">
-          {!isCorrect && (
-            <p className="correct-answer">
-              A resposta correta é: <strong>{correctAnswer.toUpperCase()}</strong>
-            </p>
-          )}
+          <div className="answer-summary">
+            {!isCorrect && (
+              <div className="selected-answer">
+                <h4>Sua resposta:</h4>
+                <div className="answer-item incorrect">
+                  <span className="answer-letter">{selectedAnswer.toUpperCase()})</span>
+                  <span className="answer-text">{selectedAnswerText}</span>
+                </div>
+              </div>
+            )}
+
+            <div className="correct-answer">
+              <h4>Resposta correta:</h4>
+              <div className="answer-item correct">
+                <span className="answer-letter">{correctAnswer.toUpperCase()})</span>
+                <span className="answer-text">{correctAnswerText}</span>
+              </div>
+            </div>
+          </div>
 
           <div className="explanation">
             <h4>Explicação:</h4>
@@ -31,16 +45,12 @@ const FeedbackModal = ({ isCorrect, correctAnswer, explanation, onClose, isLastQ
 
         <div className="feedback-actions">
           <Button onClick={onClose} className="continue-button" size="medium">
-            {isLastQuestion ? 'Ver Resultado' : 'Continuar'}
+            Continuar
           </Button>
         </div>
       </div>
     </div>
   );
-};
-
-FeedbackModal.defaultProps = {
-  isLastQuestion: false
 };
 
 export default FeedbackModal;
