@@ -1,0 +1,1 @@
+// useQuiz.js - Hook personalizado para gerenciar estado do quiz

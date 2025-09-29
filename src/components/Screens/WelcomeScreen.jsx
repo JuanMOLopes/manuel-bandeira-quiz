@@ -1,0 +1,1 @@
+// WelcomeScreen.jsx - Tela inicial

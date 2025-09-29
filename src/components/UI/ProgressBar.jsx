@@ -1,0 +1,1 @@
+// ProgressBar.jsx - Barra de progresso do quiz

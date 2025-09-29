@@ -1,0 +1,148 @@
+# Quiz sobre Manuel Bandeira - Projeto Escolar de Literatura
+
+## Objetivo
+Desenvolver um quiz interativo sobre Manuel Bandeira para atividade escolar da matéria de Literatura, utilizando questões de vestibulares.
+
+**Importante: a estilização de todo o projeto deve ser feita de forma coerente a fim de que todos os elementos tenham uma conexão visual clara e agradável**
+**Importante: as 10 questoes devem aparecer de forma aleatória a cada novo quiz**
+
+## Funcionalidades Principais
+
+### 1. Estrutura das Questões (JSON)
+- **ID**: Identificador único da questão
+- **Fonte**: De onde é a questão (para ela conseguir ser identificada pelo usuário), exemplo: ENEM 2020 +informações para encontrar as questões.
+- **Enunciado**: Texto da questão
+- **Texto**: Poema ou trecho literário de Manuel Bandeira
+- **Imagem**: Opcional, quando disponível
+- **Alternativas**: 5 opções (A, B, C, D, E)
+- **Resposta Correta**: Indicação da alternativa correta
+- **Explicação**: Justificativa da resposta correta
+
+### 2. Tela Inicial
+- **Tela de Boas-vindas**:
+  - Título do quiz "Quiz sobre Manuel Bandeira"
+  - Botão "Iniciar Quiz"
+  - Design limpo e atrativo
+
+- **Modal de Instruções**:
+  - Popup explicativo sobre como funciona o quiz
+  - Instruções sobre as animações e feedback
+  - Botão "Começar Agora" que inicia efetivamente o jogo
+
+### 3. Interface do Quiz
+- Apresentação clara da questão com o poema
+- Botões para as alternativas (A, B, C, D, E)
+- Design responsivo e atrativo
+
+### 4. Interações e Animações
+- **Feedback Visual**: 
+  - Animação de círculo verde para resposta correta
+  - Animação de círculo vermelho para resposta incorreta
+  - Animação surge a partir da posição do mouse e ocupa gradualmente a tela inteira
+
+### 5. Sistema de Feedback
+- **Popup após seleção**:
+  - Mostra a alternativa correta
+  - Exibe explicação detalhada
+  - Botão "Próxima Questão"
+
+### 5. Funcionalidades Adicionais
+- Contador de questões (ex: 3/10)
+- Pontuação final
+- Possibilidade de reiniciar o quiz
+
+## Tecnologias
+- **Frontend**: React com Vite
+- **Styling**: CSS modules ou Styled Components
+- **Animações**: CSS animations
+- **Dados**: JSON local com as questões
+
+## Estrutura do Projeto
+```
+src/
+├── components/
+│   ├── Quiz/
+│   │   ├── QuizContainer.jsx
+│   │   ├── Question.jsx
+│   │   ├── Alternative.jsx
+│   │   └── FeedbackModal.jsx
+│   ├── Screens/
+│   │   ├── WelcomeScreen.jsx
+│   │   ├── InstructionsModal.jsx
+│   │   └── ResultScreen.jsx
+│   ├── Animations/
+│   │   └── MouseAnimation.jsx
+│   └── UI/
+│       ├── Button.jsx
+│       └── ProgressBar.jsx
+├── data/
+│   └── questions.json
+├── styles/
+│   ├── global.css
+│   ├── components/
+│   │   └── (CSS modules por componente)
+│   └── animations.css
+├── utils/
+│   └── helpers.js
+└── hooks/
+    └── useQuiz.js
+```
+
+## Detalhamento da Estrutura
+
+### Componentes Quiz/
+- **QuizContainer.jsx**: Container principal que gerencia o estado do quiz
+- **Question.jsx**: Componente para exibir questões e textos
+- **Alternative.jsx**: Componente individual para cada alternativa
+- **FeedbackModal.jsx**: Modal com feedback após resposta
+
+### Componentes Screens/
+- **WelcomeScreen.jsx**: Tela inicial com boas-vindas
+- **InstructionsModal.jsx**: Modal com instruções do quiz
+- **ResultScreen.jsx**: Tela de resultado final com pontuação
+
+### Hooks/
+- **useQuiz.js**: Hook personalizado para gerenciar estado do quiz (questões, pontuação, progresso)
+
+### Utils/
+- **helpers.js**: Funções utilitárias:
+  - Embaralhar questões aleatoriamente
+  - Embaralhar alternativas
+  - Calcular pontuação final
+  - Validações e formatações
+
+### Styles/
+- **global.css**: Estilos globais e variáveis CSS
+- **components/**: CSS modules organizados por componente
+- **animations.css**: Animações específicas (círculos de feedback, transições)
+
+## Exemplo de Estrutura JSON
+```json
+{
+  "questions": [
+    {
+      "id": 1,
+      "enunciado": "Leia o poema a seguir e analise...",
+      "texto": "Poema ou trecho de Manuel Bandeira",
+      "imagem": "url_da_imagem_opcional",
+      "alternativas": {
+        "a": "Primeira opção",
+        "b": "Segunda opção",
+        "c": "Terceira opção",
+        "d": "Quarta opção",
+        "e": "Quinta opção"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Justificativa da resposta correta..."
+    }
+  ]
+}
+```
+
+## Próximos Passos
+1. Criar estrutura de componentes React
+2. Implementar sistema de dados JSON
+3. Desenvolver animações de feedback
+4. Criar modal de explicação
+5. Implementar sistema de pontuação
+6. Testes e ajustes finais

@@ -1,0 +1,1 @@
+// ResultScreen.jsx - Tela de resultados

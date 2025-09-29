@@ -1,0 +1,1 @@
+// InstructionsModal.jsx - Modal de instruções

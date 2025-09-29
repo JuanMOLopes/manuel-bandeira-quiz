@@ -1,0 +1,1 @@
+// MouseAnimation.jsx - Animações baseadas no mouse

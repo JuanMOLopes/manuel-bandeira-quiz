@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "fonte": "ENEM 2015 - Questão adaptada",
+      "enunciado": "Leia o poema a seguir e assinale a alternativa que melhor caracteriza a temática e o estilo poético de Manuel Bandeira:",
+      "texto": "Vou-me embora pra Pasárgada\nLá sou amigo do rei\nLá tenho a mulher que eu quero\nNa cama que escolherei\n\nVou-me embora pra Pasárgada\nVou-me embora pra Pasárgada\nAquí eu não sou feliz\nLá a existência é uma aventura\nDe tal modo inconsequente\nQue Joana a Louca de Espanha\nRainha e falsa demente\nVem a ser contraparente\nDa nora que nunca tive",
+      "imagem": null,
+      "alternativas": {
+        "a": "O poema revela uma visão otimista da realidade brasileira contemporânea",
+        "b": "A obra manifesta o desejo de fuga da realidade através de um lugar imaginário e utópico",
+        "c": "O texto expressa uma crítica política direta ao governo da época",
+        "d": "O poema representa uma visão romântica e idealizadora do amor",
+        "e": "A obra demonstra conformismo e aceitação passiva da realidade"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Em 'Vou-me embora pra Pasárgada', Manuel Bandeira expressa o desejo de escapar da realidade através de um lugar imaginário (Pasárgada era a antiga capital do Império Persa). O poema revela a insatisfação com a vida presente ('Aqui eu não sou feliz') e a busca por um refúgio utópico onde tudo seria possível."
+    },
+    {
+      "id": 2,
+      "fonte": "FUVEST 2018 - Questão adaptada", 
+      "enunciado": "Sobre a obra 'Pneumotórax' de Manuel Bandeira, analise o fragmento e identifique a característica modernista presente:",
+      "texto": "Febre, hemoptise, dispneia e suores noturnos.\nA vida inteira que podia ter sido e que não foi.\nTosse, tosse, tosse.\nMandou chamar o médico:\n— Diga trinta e três.\n— Trinta e três... trinta e três... trinta e três...\n— Respire.\n— O senhor tem uma escavação no pulmão esquerdo e o pulmão direito infiltrado.\n— Então, doutor, não é possível tentar o pneumotórax?\n— Não. A única coisa a fazer é tocar um tango argentino.",
+      "imagem": null,
+      "alternativas": {
+        "a": "O uso de linguagem rebuscada e vocabulário erudito",
+        "b": "A presença de rimas tradicionais e métrica regular",
+        "c": "A incorporação do cotidiano e da linguagem coloquial à poesia",
+        "d": "O tom solene e a temática exclusivamente heroica",
+        "e": "A ausência completa de elementos autobiográficos"
+      },
+      "resposta_correta": "c",
+      "explicacao": "O poema 'Pneumotórax' exemplifica uma característica fundamental do Modernismo: a incorporação do cotidiano e da linguagem coloquial à poesia. Bandeira utiliza termos médicos, diálogos simples e situações do dia a dia, rompendo com a linguagem solene do Parnasianismo. A ironia final ('tocar um tango argentino') também demonstra o humor característico do autor."
+    },
+    {
+      "id": 3,
+      "fonte": "UNICAMP 2020 - Questão adaptada",
+      "enunciado": "Leia o soneto 'Soneto de fidelidade' e identifique o tema central abordado por Manuel Bandeira:",
+      "texto": "De tudo ao meu amor serei atento\nAntes, e com tal zelo, e sempre, e tanto\nQue mesmo em face do maior encanto\nDele se encante mais meu pensamento.\n\nQuero vivê-lo em cada vão momento\nE em seu louvor hei de espalhar meu canto\nE rir meu riso e derramar meu pranto\nAo seu pesar ou seu contentamento.\n\nE assim, quando mais tarde me procure\nQuem sabe a morte, angústia de quem vive\nQuem sabe a solidão, fim de quem ama\n\nEu possa me dizer do amor (que tive):\nQue não seja imortal, posto que é chama\nMas que seja infinito enquanto dure.",
+      "imagem": null,
+      "alternativas": {
+        "a": "A eternidade do amor além da morte",
+        "b": "A intensidade do amor durante sua existência, mesmo sendo finito",
+        "c": "A crítica ao sentimento amoroso como ilusão",
+        "d": "A impossibilidade de amar verdadeiramente",
+        "e": "A superioridade do amor platônico sobre o amor carnal"
+      },
+      "resposta_correta": "b",
+      "explicacao": "O 'Soneto de fidelidade' aborda a intensidade do amor enquanto ele existe, reconhecendo sua finitude mas exaltando sua força. O verso final resume essa ideia: 'Que não seja imortal, posto que é chama / Mas que seja infinito enquanto dure'. Bandeira aceita que o amor é temporário como uma chama, mas defende que deve ser vivido com intensidade total."
+    },
+    {
+      "id": 4,
+      "fonte": "ENEM 2019 - Questão adaptada",
+      "enunciado": "Observe o poema 'Porquinho-da-índia' e identifique a técnica narrativa empregada por Manuel Bandeira:",
+      "texto": "Quando eu tinha seis anos\nGanhei um porquinho-da-índia.\nQue dor de coração me dava\nPorque o bichinho só queria estar debaixo do fogão!\nLevava ele pra sala\nPra os lugares mais bonitos mais limpinhos\nEle não gostava:\nQueria era estar debaixo do fogão.\nNão fazia caso nenhum das minhas ternurinhas...\n\nO meu porquinho-da-índia foi minha primeira namorada.",
+      "imagem": null,
+      "alternativas": {
+        "a": "Uso da terceira pessoa do singular e linguagem formal",
+        "b": "Emprego da primeira pessoa e linguagem infantil/coloquial",
+        "c": "Utilização de discurso indireto livre predominante",
+        "d": "Predomínio da descrição objetiva sem envolvimento emocional",
+        "e": "Uso de linguagem científica e técnica especializada"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Em 'Porquinho-da-índia', Bandeira emprega a primeira pessoa ('Quando eu tinha seis anos') e utiliza linguagem coloquial e infantil ('bichinho', 'ternurinhas', 'mais limpinhos'), criando um tom de memória afetiva. Esta técnica é característica do Modernismo, que valorizava a expressão natural e espontânea, aproximando a poesia da fala cotidiana."
+    },
+    {
+      "id": 5,
+      "fonte": "FUVEST 2021 - Questão adaptada",
+      "enunciado": "Sobre a fase literária e as características da obra de Manuel Bandeira, é correto afirmar:",
+      "texto": "Os sapos de Manuel Bandeira:\n\nEnfunando os papos,\nSaem da penumbra,\nAos pulos, os sapos.\nA luz os deslumbra.\n\nEm ronco que aterra,\nBerram: Que ventura!\nEscada da terra!\nFrescura! Frescura!\n\nE soltam um grito que BRR! faz:\n- Sei!\n- Não sei!\nQue mais e que mais?\nOs sapos sabem ser sapos.",
+      "imagem": null,
+      "alternativas": {
+        "a": "Bandeira foi exclusivamente um poeta parnasiano, seguindo rigorosamente as regras clássicas",
+        "b": "O autor pertence à primeira fase do Modernismo brasileiro, caracterizada pela ruptura com padrões tradicionais",
+        "c": "Sua obra se limita apenas a temas urbanos e contemporâneos, rejeitando completamente a natureza",
+        "d": "Manuel Bandeira evitou completamente o uso de elementos autobiográficos em sua poesia",
+        "e": "O poeta manteve-se sempre fiel ao soneto clássico, nunca experimentando versos livres"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Manuel Bandeira é um dos principais representantes da primeira fase do Modernismo brasileiro (1922-1930), período caracterizado pela ruptura com os padrões estéticos tradicionais. O poema 'Os Sapos' foi declamado na Semana de Arte Moderna de 1922 e representa uma crítica irônica ao Parnasianismo. Sua obra combina inovação formal com lirismo, utilizando tanto versos livres quanto formas tradicionais."
+    },
+    {
+      "id": 6,
+      "fonte": "UERJ 2017 - Questão adaptada",
+      "enunciado": "Analise o poema 'Tragédia Brasileira' e identifique o recurso estilístico predominante:",
+      "texto": "Misael, funcionário da Fazenda, com 63 anos de idade.\nConheceu Maria Elvira na Lapa — prostituída, com sífilis, dermite nos dedos, uma aliança empenhada e os dentes em petição de miséria.\nMisael tirou Maria Elvira da vida, instalou-a num sobrado no Estácio, pagou médico, dentista, manicura... Dava tudo quanto ela queria.\nQuando Maria Elvira se apanhou de boca bonita, arranjou logo um namorado.\nMisael não queria escândalo. Podia dar uma surra, um tiro, uma facada. Não fez nada disso: mudou de casa.\nContinuou, porém, a mandar dinheiro.\nMaria Elvira tomou a costumeira atitude.\nE ele voltou para casa, ela voltou pro namorado.\nMisael, então, perdeu os estribos. Uma noite, armado de revólver, procurou o casal... Não os encontrou.\nVagou toda a madrugada pela cidade. Às 6 horas da manhã, encontrou-os dormindo numa pensãozinha da Gamboa... Matou os dois.\nSegue o depoimento de Misael: '– Eu matei porque não pude me matar. Matei para não morrer.'",
+      "imagem": null,
+      "alternativas": {
+        "a": "Uso de linguagem poética e metafórica elevada",
+        "b": "Emprego de prosa poética com linguagem jornalística e coloquial",
+        "c": "Predomínio de figuras de linguagem rebuscadas",
+        "d": "Utilização de métrica rigorosa e rimas tradicionais",
+        "e": "Emprego exclusivo de linguagem culta e erudita"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Em 'Tragédia Brasileira', Bandeira utiliza prosa poética com linguagem jornalística e coloquial, construindo uma narrativa que parece uma notícia de jornal. O poema apresenta linguagem objetiva, direta e cotidiana ('funcionário da Fazenda', 'prostituída', 'pensãozinha da Gamboa'), característica típica do Modernismo que aproxima a literatura da realidade social brasileira."
+    },
+    {
+      "id": 7,
+      "fonte": "PUC-SP 2019 - Questão adaptada",
+      "enunciado": "Sobre o poema 'Evocação do Recife', identifique a principal característica temática presente:",
+      "texto": "A vida não me chegava pelos jornais nem pelos livros\nVinha da boca do povo na língua errada do povo\nLíngua certa do povo\nPorque ele é que fala gostoso o português do Brasil\nAo passo que nós\nO que fazemos\nÉ macaquear\nA sintaxe lusíada\n\nRecife...\nNão a Veneza americana\nNão a Mauritsstad dos armadores das Índias Ocidentais\nNão o Recife dos Mascates\nNem mesmo o Recife que aprendi a amar depois\nRecife da minha infância",
+      "imagem": null,
+      "alternativas": {
+        "a": "Exaltação da cultura europeia em detrimento da brasileira",
+        "b": "Valorização da linguagem popular e das memórias da infância",
+        "c": "Crítica severa à cultura popular brasileira",
+        "d": "Defesa da norma culta portuguesa na literatura",
+        "e": "Rejeição completa às influências regionais na poesia"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Em 'Evocação do Recife', Bandeira valoriza a linguagem popular brasileira ('língua certa do povo') em oposição ao 'macaquear' da sintaxe portuguesa, e resgata as memórias afetivas da infância ('Recife da minha infância'). O poema exemplifica a busca modernista por uma identidade cultural brasileira autêntica, livre das imposições europeias."
+    },
+    {
+      "id": 8,
+      "fonte": "UNIFESP 2020 - Questão adaptada",
+      "enunciado": "Leia o poema 'Momento num café' e identifique a técnica poética empregada:",
+      "texto": "Quando o enterro passou\nOs homens que se achavam no café\nTiraram o chapéu maquinalmente\nFicaram de cabeça descoberta\nAté que o carro funerário\nDesaparecesse na primeira esquina\nMas um homem ficou de cabeça descoberta\nOs outros recolocaram o chapéu\nEle não\nFicou pensando em alguma coisa que a morte lhe lembrou\nLenta e silenciosamente pôs o chapéu\nE caminhou pensativo para a estação",
+      "imagem": null,
+      "alternativas": {
+        "a": "Descrição épica de eventos heroicos",
+        "b": "Flagrante poético de uma cena cotidiana urbana",
+        "c": "Narrativa autobiográfica em primeira pessoa",
+        "d": "Monólogo interior com fluxo de consciência",
+        "e": "Descrição detalhada da paisagem natural"
+      },
+      "resposta_correta": "b",
+      "explicacao": "'Momento num café' é um exemplo de flagrante poético, técnica modernista que captura cenas cotidianas urbanas com simplicidade e precisão. Bandeira observa um momento comum (enterro passando por um café) e destaca o comportamento de um homem que se diferencia dos outros, criando poesia a partir do ordinário e revelando a profundidade humana em gestos simples."
+    },
+    {
+      "id": 9,
+      "fonte": "ENEM 2016 - Questão adaptada",
+      "enunciado": "Sobre a relação entre vida e obra de Manuel Bandeira, analise a afirmação:",
+      "texto": "Contexto biográfico: Manuel Bandeira contraiu tuberculose aos 18 anos, doença que o acompanhou por grande parte da vida e influenciou profundamente sua poesia.\n\n'Quando a Indesejada das gentes chegar\n(Não sei se dura ou caroável),\nTalvez eu tenha medo.\nTalvez sorria, ou diga:\n— Alô, iniludível!\nO meu dia foi bom, pode a noite descer.\n(A noite com os seus sortilégios.)\nTerei livrado meu coração de um afã desnecessário.\nTerei posto meu horror na corda bamba das palavras.'",
+      "imagem": null,
+      "alternativas": {
+        "a": "A doença não influenciou a obra de Bandeira, que evitou temas relacionados à morte",
+        "b": "A tuberculose levou o poeta a desenvolver uma relação particular com a morte, tema recorrente em sua obra",
+        "c": "Bandeira sempre demonstrou medo absoluto da morte em seus poemas",
+        "d": "O autor rejeitava completamente elementos autobiográficos em sua poesia",
+        "e": "A doença o tornou um poeta exclusivamente melancólico e pessimista"
+      },
+      "resposta_correta": "b",
+      "explicacao": "A tuberculose realmente influenciou profundamente a obra de Bandeira, levando-o a desenvolver uma relação única com a morte, que se tornou tema recorrente em seus poemas. No texto apresentado ('A Indesejada das gentes'), o poeta trata a morte com familiaridade e até certa ironia ('Alô, iniludível!'), demonstrando uma aceitação serena que caracteriza sua abordagem madura do tema."
+    },
+    {
+      "id": 10,
+      "fonte": "VUNESP 2018 - Questão adaptada", 
+      "enunciado": "Analise as características do Modernismo presentes no fragmento de 'Poética' de Manuel Bandeira:",
+      "texto": "Estou farto do lirismo comedido\nDo lirismo bem comportado\nDo lirismo funcionário público com livro de ponto expediente protocolo e manifestações de apreço ao senhor diretor.\n\nEstou farto do lirismo que pára e vai averiguar no dicionário o cunho vernáculo de um vocábulo.\n\nAbaixo os puristas\n\nTodos os ritmos sobretudo os inumeráveis\nTodos os metros sobretudo os não-existentes\nTodos os temas sobretudo os não-literários\nTodos os tabus principalmente os do bom-tom literário",
+      "imagem": null,
+      "alternativas": {
+        "a": "Defesa dos padrões clássicos e da linguagem erudita",
+        "b": "Manifesto contra as convenções poéticas tradicionais e defesa da liberdade criativa",
+        "c": "Exaltação do funcionalismo público e da burocracia",
+        "d": "Valorização exclusiva dos temas elevados e nobres",
+        "e": "Defesa do purismo linguístico e das regras gramaticais rígidas"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Em 'Poética', Bandeira faz um verdadeiro manifesto modernista contra as convenções poéticas tradicionais. Ele rejeita o 'lirismo comedido', critica o purismo linguístico ('Abaixo os puristas') e defende a liberdade criativa total ('Todos os ritmos', 'Todos os metros', 'Todos os temas'). Este poema sintetiza os ideais da primeira fase modernista brasileira: ruptura com o passadismo e busca de uma expressão poética livre e autêntica."
+    }
+  ]
+}

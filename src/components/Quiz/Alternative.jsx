@@ -1,0 +1,1 @@
+// Alternative.jsx - Componente para alternativas
