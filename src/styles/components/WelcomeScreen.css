@@ -187,9 +187,23 @@
 
   .logo-section {
     gap: 0.5rem;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .logo-text {
     text-align: center;
+  }
+
+  .logo-icon {
+    width: 36px; /* 10% menor */
+    height: 36px; /* 10% menor */
+  }
+
+  .welcome-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
   }
 }
