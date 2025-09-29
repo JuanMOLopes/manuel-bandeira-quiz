@@ -1,0 +1,78 @@
+/* InstructionsModal.css - Estilos para o modal de instruções ajustados */
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.instructions-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 254, 254, 0.5); /* Fundo semi-transparente */
+  backdrop-filter: blur(10px); /* Efeito de desfoque */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.instructions-modal {
+  background: #fefefe; /* Branco ghost mais suave */
+  border-radius: 8px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+.instructions-title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #1a365d; /* Cor escura para fundo claro */
+  margin-bottom: 1rem;
+}
+
+.instructions-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.instructions-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: left;
+  color: #555;
+}
+
+.instructions-list li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions-button {
+  background: #1a365d; /* Cor escura para fundo claro */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.instructions-button:hover {
+  background: #14284a; /* Tom mais escuro para hover */
+}
