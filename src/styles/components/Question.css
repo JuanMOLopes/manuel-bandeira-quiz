@@ -1,0 +1,60 @@
+.question {
+  background: var(--card-background);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.question-header {
+  margin-bottom: 1.5rem;
+}
+
+.question-source {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.question-statement {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.question-text {
+  background: var(--background-secondary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid var(--primary-color);
+}
+
+.poem-text {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.question-image {
+  text-align: center;
+}
+
+.question-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}

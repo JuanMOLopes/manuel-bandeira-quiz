@@ -1,0 +1,70 @@
+.alternative {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--card-background);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+}
+
+.alternative:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.alternative.correct {
+  border-color: var(--success-color);
+  background: var(--success-background);
+}
+
+.alternative.incorrect {
+  border-color: var(--error-color);
+  background: var(--error-background);
+}
+
+.alternative.correct.selected {
+  border-color: var(--success-color);
+  background: var(--success-background);
+}
+
+.alternative.incorrect.selected {
+  border-color: var(--error-color);
+  background: var(--error-background);
+}
+
+.alternative-letter {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  min-width: 2rem;
+  flex-shrink: 0;
+}
+
+.alternative.correct .alternative-letter {
+  color: var(--success-color);
+}
+
+.alternative.incorrect .alternative-letter {
+  color: var(--error-color);
+}
+
+.alternative-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.alternative:disabled {
+  cursor: default;
+}
+
+.alternative:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}

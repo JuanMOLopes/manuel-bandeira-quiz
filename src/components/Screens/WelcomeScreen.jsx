@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useQuizContext } from '../../contexts/QuizContext';
 import Button from '../UI/Button';
 import InstructionsModal from './InstructionsModal';
 import '../../styles/components/WelcomeScreen.css';
 
 const WelcomeScreen = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const navigate = useNavigate();
+  const { initializeQuiz } = useQuizContext();
 
   const handleStartQuiz = () => {
     setIsModalOpen(true);
@@ -14,7 +14,7 @@ const WelcomeScreen = () => {
 
   const handleBeginQuiz = () => {
     setIsModalOpen(false);
-    navigate('/quiz');
+    initializeQuiz();
   };
 
   return (

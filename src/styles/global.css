@@ -27,6 +27,22 @@
   --color-error: #ef4444;
   --color-warning: #f59e0b;
 
+  /* Additional color variables for components */
+  --primary-color: var(--color-primary);
+  --primary-color-light: var(--color-primary-dark);
+  --success-color: var(--color-success);
+  --error-color: var(--color-error);
+  --text-primary: var(--color-accent);
+  --text-secondary: rgba(26, 54, 93, 0.8);
+  --card-background: rgba(255, 255, 255, 0.95);
+  --background-secondary: rgba(255, 255, 255, 0.1);
+  --border-color: rgba(255, 255, 255, 0.2);
+  --success-background: rgba(16, 185, 129, 0.1);
+  --error-background: rgba(239, 68, 68, 0.1);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
   /* Typography */
   --font-primary: 'Playfair Display', serif;
   --font-secondary: 'Inter', sans-serif;
