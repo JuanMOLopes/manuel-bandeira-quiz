@@ -4,7 +4,7 @@ Um aplicativo de quiz interativo sobre a vida e obra do poeta brasileiro Manuel 
 
 ## 🎯 Objetivo
 
-Desenvolver uma ferramenta educacional interativa para estudantes de literatura brasileira, utilizando questões reais de vestibulares sobre Manuel Bandeira. O projeto enfatiza design responsivo, animações suaves e experiência do usuário intuitiva.
+Com o uso de diferentes IA, desenvolver uma ferramenta educacional interativa para estudantes de literatura brasileira, utilizando questões reais de vestibulares sobre Manuel Bandeira. O projeto enfatiza design responsivo, animações suaves e experiência do usuário intuitiva.
 
 ## ✨ Funcionalidades
 
