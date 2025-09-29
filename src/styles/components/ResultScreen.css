@@ -134,11 +134,6 @@
 }
 
 @media (max-width: 768px) {
-  .result-stats {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
   .result-container {
     padding: 2rem;
   }
@@ -154,6 +149,80 @@
 
   .score-percentage {
     font-size: 2rem;
+  }
+
+  .result-logo-header {
+    top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .result-screen {
+    padding: 1rem;
+  }
+
+  .result-container {
+    padding: 1.5rem;
+    margin-top: 5rem; /* Aumentado para dar mais espaço para a logo */
+  }
+
+  .result-header {
+    margin-bottom: 2rem;
+  }
+
+  .result-title {
+    font-size: 1.8rem;
+  }
+
+  .score-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .score-percentage {
+    font-size: 1.5rem;
+  }
+
+  .score-text {
+    font-size: 0.8rem;
+  }
+
+  .result-stats {
+    gap: 0.75rem;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+  }
+
+  .result-message {
+    padding: 1rem;
+  }
+
+  .result-message h3 {
+    font-size: 1.1rem;
+  }
+
+  .restart-button {
+    min-width: 180px;
+    padding: 0.875rem 2rem;
+    font-size: 0.95rem;
+  }
+
+  .result-logo-header {
+    top: 0.5rem; /* Logo mais próxima do topo */
+  }
+
+  .result-logo-header .main-title {
+    font-size: 1.2rem; /* Logo menor em telas pequenas */
+  }
+
+  .result-logo-header .subtitle {
+    font-size: 0.6rem;
   }
 }
 
