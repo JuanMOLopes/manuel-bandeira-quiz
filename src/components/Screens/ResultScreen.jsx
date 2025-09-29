@@ -2,6 +2,7 @@
 import React from 'react';
 import { useQuizContext } from '../../contexts/QuizContext';
 import Button from '../UI/Button';
+import Logo from '../UI/Logo';
 import '../../styles/components/ResultScreen.css';
 
 const ResultScreen = () => {
@@ -30,6 +31,10 @@ const ResultScreen = () => {
 
   return (
     <div className="result-screen">
+      <div className="result-logo-header">
+        <Logo />
+      </div>
+
       <div className="result-container">
         <header className="result-header">
           <h1 className="result-title">Quiz Concluído!</h1>

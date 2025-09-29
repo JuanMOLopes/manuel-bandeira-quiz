@@ -38,7 +38,7 @@ const FeedbackModal = ({ isCorrect, correctAnswer, correctAnswerText, selectedAn
           </div>
 
           <div className="explanation">
-            <h4>Explicação:</h4>
+            <h4>💡 Explicação:</h4>
             <p>{explanation}</p>
           </div>
         </div>

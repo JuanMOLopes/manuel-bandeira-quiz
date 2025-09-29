@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useQuizContext } from '../../contexts/QuizContext';
 import Button from '../UI/Button';
+import Logo from '../UI/Logo';
 import InstructionsModal from './InstructionsModal';
 import '../../styles/components/WelcomeScreen.css';
 
@@ -20,13 +21,7 @@ const WelcomeScreen = () => {
   return (
     <div className="welcome-screen">
       <header className="welcome-header">
-        <div className="logo-section">
-          <img src="/icon.png" alt="BrainQuiz Logo" className="logo-icon" />
-          <div className="logo-text">
-            <h1 className="main-title">BrainQuiz</h1>
-            <span className="subtitle">Literatura</span>
-          </div>
-        </div>
+        <Logo />
       </header>
 
       <main className="welcome-content">

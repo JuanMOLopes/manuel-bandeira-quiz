@@ -6,6 +6,7 @@ import Alternative from './Alternative';
 import FeedbackModal from './FeedbackModal';
 import ProgressBar from '../UI/ProgressBar';
 import Button from '../UI/Button';
+import Logo from '../UI/Logo';
 import '../../styles/components/QuizContainer.css';
 
 const QuizContainer = () => {
@@ -48,6 +49,10 @@ const QuizContainer = () => {
 
   return (
     <div className="quiz-container">
+      <div className="quiz-logo-header">
+        <Logo className="quiz-logo" />
+      </div>
+
       <header className="quiz-header">
         <div className="quiz-progress">
           <span className="question-counter">

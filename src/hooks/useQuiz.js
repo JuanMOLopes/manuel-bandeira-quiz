@@ -115,7 +115,7 @@ export const useQuiz = () => {
 
   // Estado atual da questão
   const currentQuestion = questions[currentQuestionIndex];
-  const progress = questions.length > 0 ? ((currentQuestionIndex + 1) / questions.length) * 100 : 0;
+  const progress = questions.length > 1 ? (currentQuestionIndex / (questions.length - 1)) * 100 : 100;
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
 
   return {

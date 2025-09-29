@@ -18,6 +18,9 @@ const InstructionsModal = ({ onClose }) => {
         <button className="instructions-button" onClick={onClose}>
           Começar Agora
         </button>
+        <div className="ai-attribution">
+          <p>Questões adaptadas pela IA Claude Sonnet 4</p>
+        </div>
       </div>
     </div>
   );
